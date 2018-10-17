@@ -1,0 +1,10 @@
+com/relevance/controller/UserController.class
+com/relevance/service/UserService.class
+com/relevance/service/UserServiceImpl.class
+com/relevance/dao/UserDaoImpl$1.class
+com/relevance/dao/UserDaoImpl.class
+com/relevance/config/WebInitializer.class
+com/relevance/config/WebConfig.class
+com/relevance/dao/UserDao.class
+com/relevance/model/User.class
+com/relevance/dao/UserDaoImpl$UserMapper.class

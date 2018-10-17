@@ -1,0 +1,8 @@
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/dao/UserDao.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/service/UserService.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/model/User.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/controller/UserController.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/config/WebConfig.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/dao/UserDaoImpl.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/service/UserServiceImpl.java
+/home/rle0571/eclipse-workspace/SpringMvcCRUDExample/src/main/java/com/relevance/config/WebInitializer.java
