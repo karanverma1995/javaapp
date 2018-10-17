@@ -5,7 +5,6 @@ pipeline {
     agent {
             docker { 
                   image 'kv1995/javaapp:latest' 
-                  args '-p 9669:8080'          
                  }
           } 
     steps {
@@ -24,7 +23,6 @@ pipeline {
     agent  {
             docker {
                   image 'kv1995/javaapp:latest'
-                  args '-p 9669:8080'
                  }
           }
 
