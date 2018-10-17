@@ -8,8 +8,8 @@ pipeline {
                  }
           } 
     steps {
+      echo 'Deploying in QA' 
       sh '/usr/local/tomcat/bin/startup.sh'
-      echo 'Deploying in QA'
       input('Do you want to Continue the pipeline ?')
    }
   }
