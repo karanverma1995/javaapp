@@ -2,7 +2,12 @@ pipeline {
  agent any
  stages {
   stage('QA') {
-    agent { dockerfile true}
+    agent {
+            docker { 
+                  image 'kv1995/javaapp' 
+                  args '-p 9669:8080'          
+                 }
+          } 
     steps {
       echo 'Deploying in QA'
       input('Do you want to Continue the pipeline ?')
@@ -16,7 +21,13 @@ pipeline {
   }
 
   stage('Staging') {
-    agent { dockerfile true}
+    agent  {
+            docker {
+                  image 'kv1995/javaapp'
+                  args '-p 9669:8080'
+                 }
+          }
+
     steps {
       echo 'Deploying in Staging'
       input('Do you want to Continue the pipeline ?')
