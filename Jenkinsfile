@@ -4,7 +4,7 @@ pipeline {
   stage('QA') {
     agent {
             docker { 
-                  image 'kv1995/javaapp' 
+                  image 'kv1995/javaapp:latest' 
                   args '-p 9669:8080'          
                  }
           } 
@@ -23,7 +23,7 @@ pipeline {
   stage('Staging') {
     agent  {
             docker {
-                  image 'kv1995/javaapp'
+                  image 'kv1995/javaapp:latest'
                   args '-p 9669:8080'
                  }
           }
